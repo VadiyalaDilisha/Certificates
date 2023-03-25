@@ -1,0 +1,24 @@
+<DOCTYPE html>
+<htnl lang="en"><head>
+<meta charset="utf-8">
+<title>MyWAys Form Validation</title>
+<meta name="keywords" content="example,Myways Form validation,Sample registration form"/>
+<meta name="description"content="this is a sample registration form for myways"/>
+<link rel='stylesheet' href='function formValidation.css' type='text/css'/>
+<script src='function nameValidation.js"></script>
+</head>
+<body onload="document.registration.userid.focus();">
+<h1>Registration Form</h1>
+<form name='registration' on Submit="return formValidation();">
+<ul>
+<li><label for="userid">Name:</label></li>
+<li><input type="text"name="userid" size="50"/></li>
+<li><label for="email">Email:</label></li>
+<li><input type="text"name="email" size="50"/></li>
+<li><label for="phone">Email:</label></li>
+<li><input type="tel"name="phone" size="10"/></li>
+<input type="submit" name="submit" value="Submit"/></li>
+</ul>
+</form>
+</body>
+</html>
